@@ -1,0 +1,936 @@
+
+.fotoPrincipal {
+  /* box-shadow: 6px 5px 11px rgba(0, 0, 0, 1); */
+  width: 1080px;
+  height: 500px;
+  /* background-image: url(https://viajeropeligro.com/wp-content/uploads/2020/11/playas-tailandia.jpg); */
+  background-position: center center;
+  background-size:cover ;
+  border-radius: 60px;
+  filter: brightness(75%);
+}
+.carousel-container{
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  top: 40%; /* Ajusta según tu diseño */
+  left: 50%; /* Ajusta según tu diseño */
+  transform: translate(-50%, -50%); /* Centra el contenido */
+ color: white; /* Color del texto */
+  font-size: 23px; /* Tamaño de fuente del texto */
+}
+.inputMain {
+  height: 45px;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: #FE982E 3px solid;
+  background-color: transparent;
+  color: white;
+}
+.inputMain::placeholder {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.botonMain {
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 50px;
+  width: 100px;
+ background-color: transparent;
+ color: white;
+ font-weight: 700;
+ border: #FE982E 3px solid;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nombrePagina {
+  font-size: 33px;
+  margin-left: -10px;
+}
+.enlacesMenores {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 308px;
+ }
+ .enlacesMenores1{
+margin: 10px;
+ }
+
+.padreMain {
+  display: flex;
+ 
+}
+.socialMedia {
+  display: block;
+  padding: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation: media 4s ease 0s 1 normal forwards;
+}
+@keyframes media {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.enlaces {
+  display: flex;
+  justify-content: space-around;
+}
+.padreLogos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.eslogan {
+  text-align: center;
+  font-size: 35px;
+
+}
+
+.contenidoMain {
+  border-radius: 8px;
+margin: 30px 50px 80px 50px;
+
+}
+.footerPadre {
+  display: flex;
+  justify-content: space-between;
+}
+.textoFooter{
+  color: white;
+  margin-top: 5px;
+  
+}
+.inputFooter {
+  padding: 9px;
+}
+.botonFooter {
+  margin-left:10px ;
+  background-color:  #FE982E;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.footerP1{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.botonContacto {
+  color: #8b5eea ;
+ background-color: white;
+ border: 3px solid #8b5eea  ;
+ border-radius: 20px;
+ padding: 5px;
+ text-align: center;
+}
+.botonContacto:hover {
+  background-color: rgb(21, 126, 206);
+  color: white;
+  border: 2px solid
+   rgb(219, 0, 37) ;
+}
+
+.textoFooter2 {
+  color: white;
+}
+
+.logoMundo{
+  margin-left: -76px;
+  width: 50px;
+  height: 50px;
+  animation: logo 25s ease 0s infinite normal forwards;
+}
+@keyframes logo {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.lupa {
+  margin-top: 12px;
+}
+.lupa1{
+  margin-left: 10px;
+}
+.destino {
+  margin-right: 10px;
+}
+.infoPadre{
+  display: flex;
+justify-content: space-around ;
+  margin-bottom: 20px;
+}
+
+.infoTips,
+.infoRelatos,
+.infoPlanifica,
+.espana,
+.tailandia,
+.brasil,
+.caboverde,
+.alemania
+ {
+  position: relative;
+  height: 450px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 2);
+  
+}
+
+.infoTips::before,
+.infoRelatos::before,
+.infoPlanifica::before, 
+.brasil::before,
+.alemania::before,
+.espana::before,
+.caboverde::before,
+.tailandia::before
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(68%);
+}
+
+
+.infoTips::before{
+  background-image: url(https://img.freepik.com/foto-gratis/equipo-fotografico-cuaderno-espiral-accesorios-personales-fondo_23-2147856118.jpg?w=2000);
+ 
+}
+
+.infoRelatos::before {
+  background-image: url(https://media.istockphoto.com/id/1181844909/es/foto/playa.jpg?s=170667a&w=0&k=20&c=2ehN58PPJ1cAsjrkBGOFQsp1uE3cv8w4OwSPqHvZZGo=);
+}
+
+.infoPlanifica::before {
+  background-image: url(https://www.captio.net/hubfs/Imatges/Los_100_viajes_de_negocios_que_han_cambiado_la_historia.png);
+}
+
+
+.infoTips p,
+.infoRelatos p, 
+.infoPlanifica p {
+color: white;
+font-size: 30px;
+position: relative;
+z-index: 2;
+font-weight: 600;
+margin-top: 60px;
+text-align: center;
+
+}
+.infoTips h3,
+.infoRelatos h3, 
+.infoPlanifica h3
+ {
+color: #380597;
+font-size: 30px;
+text-align: center;
+position: relative;
+z-index: 1;
+background-color: white;
+border-radius: 20px;
+width: 320px;
+margin-left: 15px;
+margin-top: 30px;
+
+}
+
+.infoLink {
+  background-color: #FE982E;
+  border: solid 2px white;
+  border-radius: 20px;
+  padding: 7px;
+  margin-left: 120px;
+  font-size: 20px;
+  width: 100px;
+  position: relative; 
+  z-index: 2; 
+
+}
+.infoLink:hover {
+  background-color: rgb(250, 175, 35);
+  padding: 8px ;
+  font-size: 22px;
+  border: 1px solid #380597;
+}
+.textoPadre {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.textoAnimacion {
+  width: 600px;
+  margin-top: 90px;
+  transform: translateX(-100%); /* Empieza fuera de la vista hacia la izquierda */
+  transition: transform 5s cubic-bezier(0.215, 0.61, 0.355, 1); /* Transición más lenta y suavizada */
+}
+
+.textoAnimacion.active {
+  transform: translateX(0); /* Lleva el DIV a la posición final */
+}
+
+.fotoAvion {
+  width: 500px;
+  height: 500px;
+  margin-top: 80px;
+}
+
+
+.textoHijo p {
+  font-size: 20px;
+}
+.textoHijo h2 {
+  font-size: 25px;
+}
+
+.fotoMedioPantalla {
+  height: 400px;
+  background: url(https://viajes.nationalgeographic.com.es/medio/2022/02/03/lago-rotoiti-nueva-zelanda_fb6b878e_2000x1314.jpg) center/cover;
+  filter: brightness(90%);
+  position: relative; /* Establecer un contexto de apilamiento */
+}
+
+.fotoMedioPantalla h2 {
+ 
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Asegurar que el título esté encima de la imagen */
+}
+.fotoMedioPantalla .economic {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: transparent;
+  border: solid 4px orange;
+  padding: 7px;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center ;
+  font-weight: 600;
+}
+.fotoMedioPantalla .economic:hover {
+  color: orange;
+}
+.palabra1{
+  color:orange
+}
+.parteFinal {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 30px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.textoFinal{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+}
+.divFinal {
+width: auto;
+height: 300px;
+  box-shadow: 3px 1px 8px 1px rgb(0, 0, 2) ;
+  background-color: white;
+}
+.enlaceWeb{
+  background-color: #FE982E;
+  box-shadow: 1px 1px 5px 0px rgb(0, 0, 2);
+  padding: 5px;
+  border-radius: 8px;
+}
+.emojiFinal {
+  margin-top: 15px;
+}
+.logoMediaFinal{
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+background: linear-gradient(to right,#ff6b6b, #8b5eea, #ff6b6b);
+height: 30px;
+margin-left: 260px;
+margin-right: 260px;
+border-radius: 10px;
+}
+.logoFinal {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.textoFooter3{
+  
+  border: #FE982E solid 2px;
+padding: 3px;
+text-align: center;
+}
+/* 
+Publicar relatos  */
+
+.formularioRelato{
+  text-align: center;
+}
+.formularioRelatoH2{
+  font-size: 35px;
+  color:#1d024f;
+}
+.formularioRelatoP
+{
+  font-size: 18px;
+  color: black;
+}
+.form-control{
+  width: 600px;
+  height: 300px;
+  font-size:18px ;
+}
+.input-control {
+  width: 600px;
+  height: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 18px;
+}
+.enviarRelato {
+  background-color:  #049443;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: none;
+}
+.enviarRelato:hover {
+  border: #FE982E 2px solid;
+}
+
+ .message {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:#049443 ; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+.message.error {
+  background-color: rgba(252, 2, 2, 0.828); 
+  color: white; 
+}
+.close-button{
+ border-radius: 7px;
+ padding: 5px;
+ border: none;
+ background-color:#FE982E ;
+color: white;
+font-size: 18px;
+}
+
+.relatosD {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  grid-row-gap: 20px;
+  align-content: start; /* Alinea los elementos desde la parte superior de la celda */
+}
+
+/* Estilo para cada tarjeta */
+.relato {
+  width: 400px;
+  box-shadow: 1px 1px 5px 1px rgb(0, 0, 2);
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(to bottom, #f0bcfa, #ffff);
+}
+.collapsed-content {
+  max-height: 300px; /* Altura máxima antes de colapsar */
+  overflow: hidden;
+}
+
+/* Estilo para el contenido expandido */
+.expanded-content {
+  overflow: visible; /* Mostrar contenido completo */
+}
+.read-more-button{
+  border: none;
+  color: red;
+  background-color: rgb(240, 236, 236);
+  width: 100px;
+}
+
+.todosDestinos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-bottom: 20px;
+  margin-left: 50px;
+
+}
+.espana::before{
+  background-image: url(https://multimedia.andalucia.org/media/0BC700DB844F4EDFBE00C1FA9B493D71/img/1112772E6D5945A1B89C26E539DD0D99/SE_Catedral_01.jpg?responsive);
+}
+.tailandia::before{
+  background-image: url(https://www.intermundial.es/blog/wp-content/uploads/2017/11/9-cosas-a-saber-para-viajar-a-Tailandia-por-libre-1024x684.jpg);
+}
+.alemania::before {
+  background-image: url(https://a.cdn-hotels.com/gdcs/production133/d1829/743b2f60-bb25-11e8-a095-0242ac11000d.jpg);
+}
+.brasil::before {
+  background-image: url(https://upload.travelawaits.com/ta/uploads/2021/04/aerial-view-of-rio-de-janeiroee4454.jpg);
+}
+.caboverde::before{
+  background-image: url(https://media.istockphoto.com/id/1460448440/es/foto/vista-a%C3%A9rea-de-la-orilla-de-praia-de-santiago-y-el-faro-de-praia-en-un-d%C3%ADa-soleado.jpg?s=612x612&w=0&k=20&c=N0TN9_ZRI_AXepEmGMVyQIyS_RsJ-59HHXpM_sjLrcw=);
+}
+.espana h3,
+.tailandia h3,
+.alemania h3,
+.brasil h3,
+.caboverde h3{
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+z-index: 1;
+color: white;
+}
+.infoLink1 {
+  position: relative;
+  z-index: 1;
+background-color: #FE982E;
+border: solid 2px white;
+border-radius: 20px;
+padding: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+margin-left: 120px;
+text-align: center;
+margin-top: 270px;
+font-size: 20px;
+cursor: pointer;
+
+}
+.infoLink1:hover {
+  background-color: rgb(250, 175, 35);
+  padding: 8px ;
+  font-size: 22px;
+  border: 1px solid #380597;
+  cursor: pointer;
+}
+.fotoDestino{
+  width: 400px;
+  height: 300px;
+}
+.fotoSobreMi{
+margin-left: 10px;
+
+}
+.sobreMi {
+  width: 265px;
+  height: 295px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.textoAboutme{
+
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 1px 3px 8px 1px rgb(0, 0, 1);
+  padding: 2px;
+  color: #1d024f;
+  background-color: white;
+  margin-top: 20px;
+}
+.formularioContacto{
+  display: flex;
+  justify-content: space-around;
+}
+.formularioContactoP{
+margin-left: 40px;
+margin-right: 50px;
+margin-top: 50px;
+font-size: 25px;
+
+}
+.formContacto{
+  margin-top: 30px;
+  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.emailC{
+  color: #049443;
+  font-size: 25px;
+}
+.padreDestinos {
+  display: flex;
+}
+
+.fotoDestinoIndividual{
+  width: 600px;
+  height: 420px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.hijoDestinos{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.hijoDestinos,
+p {
+  font-size: 18px;
+
+}
+.parrafoDestinos{
+  margin-left: 40px;
+  margin-right: 40px;
+  color: black;
+  font-size: 20px;
+
+}
+.destination-info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  padding: 20px;
+  box-shadow: 1px 4px 8px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  backdrop-filter: blur(12px); /* Ajusta la cantidad de desenfoque según tus preferencias */
+  background-color: rgba(252, 250, 250, 0.252); /* Ajusta el color de fondo y la opacidad según tus preferencias */
+  color: black;
+  border: solid 8px cornflowerblue;
+}
+.destination-info,
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.botonDinamico{
+  background-color: #FE982E;
+  color: white;
+ margin-left: 350px;
+ text-align: center;
+  border: white 2px solid;
+  padding: 6px;
+  border-radius: 7px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fotoDiv {
+  width: 210px;
+  height: 120px;
+  border-radius: 10px;
+}
+.divPadre{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 767px) {
+  .nombrePagina {
+    font-size: 33px;
+    margin-left: 10px;
+  }
+  .logoMundo{
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    animation: logo 25s ease 0s infinite normal forwards;
+  }
+  @keyframes logo {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .fotoPrincipal {
+    width: 100%;
+    height: 180px;
+    border-radius: 0;
+  }
+
+  .text-overlay {
+    top: 35%;
+    font-size: 12px;
+  }
+
+  .inputMain {
+    width: 100%;
+    font-size: 11px;
+    height: 20px;
+  }
+  .inputMain::placeholder {
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+  }
+  
+  .botonMain {
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 20px;
+    width: 50px;
+  font-weight: 500;
+    font-size: 10px;
+ margin-top: 5px;
+  }
+
+  
+
+  .enlacesMenores {
+    display: block;
+    margin-left: 0;
+  }
+
+  .padreMain {
+    flex-direction: column;
+  }
+
+  .socialMedia {
+    padding: 20px;
+    margin-left: 50px;
+    display: flex;
+  }
+  .lupa {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+  }
+
+  .enlaces {
+    flex-direction: column;
+    display: block;
+    
+  }
+  .botonContacto {
+    color: #8b5eea ;
+   background-color: white;
+   border: 3px solid #8b5eea  ;
+   border-radius: 20px;
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+  }
+
+  .padreLogos {
+    justify-content: center;
+  }
+
+  .destino {
+    margin-right: 0;
+  }
+
+  .infoPadre {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoTips,
+  .infoRelatos,
+  .infoPlanifica {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .infoTips h3,
+  .infoRelatos h3,
+  .infoPlanifica h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 200px;
+  }
+
+  .infoLink {
+   font-size: 18px;
+   margin-left: 140px;
+  }
+
+  .textoAnimacion {
+    width: 100%;
+    margin-top: 50px;
+    transform: translateX(0);
+    margin-left: 30px;
+  }
+
+  .fotoAvion {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    visibility: hidden;
+    height: 80px;
+   
+  }
+
+  .textoHijo p {
+    font-size: 18px;
+  }
+
+  .textoHijo h2 {
+    font-size: 22px;
+  }
+
+  .fotoMedioPantalla {
+    height: 250px;
+  }
+
+  .fotoMedioPantalla h2 {
+    font-size: 20px;
+  }
+
+  .fotoMedioPantalla .economic {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 4px orange;
+    padding: 7px;
+    color: white;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center ;
+    font-weight: 600;
+    background-color: #5b3a99;
+  }
+
+  .parteFinal {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .textoFinal {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .divFinal {
+    width: 100%;
+    height: auto;
+  }
+
+  .emojiFinal {
+    margin-top: 10px;
+  }
+
+  .logoMediaFinal {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+
+  .textoFooter3 {
+    padding: 2px;
+    font-size: 14px;
+  }
+
+  .footerPadre {
+    display: flex;
+    justify-content: space-around;
+  }
+  .textoFooter{
+    color: white;
+    margin-top: 5px;
+    font-size: 18px;
+    
+  }
+  .inputFooter {
+    padding: 5px;
+    width: 130px;
+  }
+  .botonFooter {
+    margin-left:2px ;
+    background-color:  #FE982E;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3px;
+  }
+  .relatosD{
+    display: block;
+  }
+  .relato{
+    margin-left: 0;
+    
+    width: 350px;
+  }
+  .fotoDestino{
+    width: 345px;
+    height: 250px;
+  }
+}
+
+/* pantalla grande */
+
+@media (min-width: 1400px){}
