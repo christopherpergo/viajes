@@ -26,7 +26,7 @@ const validRoutes = [ '/rutas/destino', '/rutas/tailandia','/rutas/brasil','/rut
 
 
 <Link className='nombrePagina' to="/">Globetrotter</Link>
-<img className='logoMundo' src={logoworld} /> 
+<img className='logoMundo' src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697217330/pngwing.com_3_wvwicj.png" /> 
 
 
  <div className='enlacesMenores'>

@@ -64,7 +64,7 @@ return () => {
 </div>
 
 <div className='textoFoto'>
-<img className= "fotoAvion" src={logoavion} />
+<img className= "fotoAvion" src="https://res.cloudinary.com/daacb3ohi/image/upload/v1697218145/logoavion_oajd67.png" />
 </div>
 </div>
 
