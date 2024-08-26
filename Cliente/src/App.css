@@ -6,7 +6,7 @@
   /* background-image: url(https://viajeropeligro.com/wp-content/uploads/2020/11/playas-tailandia.jpg); */
   background-position: center center;
   background-size:cover ;
-  border-radius: 60px;
+  
   filter: brightness(75%);
 }
 .carousel-container{

@@ -176,11 +176,34 @@ margin: 0;
 /* pantalla grande */
 
 @media (min-width: 1400px){
-  body {
-    margin-left: 220px;
-    margin-right: 220px;
+  .fotoPrincipal{
+    height: 700px;
+    margin: 50px;
+    width: 100%;
+   
+  }
+  .fotoMedioPantalla{
+    height: 600px;
   }
   .fotoSobreMi{
     text-align: center;
+  }
+  .socialMedia img {
+    height: 60px;
+   
+    margin-top: 40px;
+  }
+
+  
+}
+@media only screen and (min-width: 1024px) {
+  .fotoPrincipal{
+    height: 500px;
+    margin: 30px;
+    width: 100%;
+  }
+  .socialMedia img {
+    height: 50px;
+   margin-top: 20px;
   }
 }

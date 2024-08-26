@@ -12,7 +12,7 @@ export const Main = () => {
   const images = [
     "https://www.hangel.es/wp-content/uploads/2016/01/xturkey_main.jpg.pagespeed.ic_.iPM2OyRS66.jpg",
     "https://humanidades.com/wp-content/uploads/2017/03/torre-eiffel-8-e1565200084478.jpg",
-    "https://interrailero.com/wp-content/uploads/2022/01/que-ver-en-barcelona-mapa-1000x400.jpg",
+  
     "https://viajeropeligro.com/wp-content/uploads/2020/11/playas-tailandia.jpg",
     "https://i0.statig.com.br/bancodeimagens/3e/20/al/3e20al33r15ohb2ifqnfzsr8t.jpg",
     "https://cdn.britannica.com/15/20215-050-9F587C1E/Cologne-Cathedral-rail-pedestrian-bridge-Hohenzollern-Germany.jpg",
@@ -92,7 +92,7 @@ export const Main = () => {
 
         <div className='contenidoMain'>
           <div className='carousel-container'>
-            <Carousel autoPlay interval={2500} infiniteLoop showStatus={false} showThumbs={false} transitionTime={1000} stopOnHover={false} emulateTouch>
+            <Carousel autoPlay interval={2500} infiniteLoop showStatus={false} showThumbs={false} transitionTime={2000} stopOnHover={false} emulateTouch>
               {images.map((image, index) => (
                 <div key={index}>
                   <img className='fotoPrincipal' src={image} alt={`Slide ${index}`} />
